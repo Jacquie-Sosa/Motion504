@@ -1,0 +1,115 @@
+:root{
+	--color-footer: #ece5d4;
+	--color-texto: #000000
+}
+
+
+
+
+header img{
+	width: 25%
+}
+
+header{
+	box-shadow:  0 12px 15px -10px rgba(0,0,0,0.20);
+}
+	
+#hero{
+	background-image: url( "../img/leo y yo acostados.png");
+	text-align: center;
+	color: #FFFFFF;
+	background-size: cover;
+	height: 500px;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
+	
+.letras{
+	padding-top: 15%;
+}
+	
+	
+#section-somos{
+	width: 90%;
+	margin-left: 100px;
+}
+
+	
+#section-somos article{
+	margin-bottom: 60px;
+}	
+	
+	
+#section-somos img{
+	width: 85%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 30px;
+	box-shadow: 10px 10px 0px rgba(0,0,0,0.20);
+}
+	
+.texto{
+	width: 400px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 40px
+}
+	
+
+footer{
+	background-color: var(--color-footer);
+	padding: 60px;
+	text-align: center;
+}
+
+footer img{
+	width: 50px;
+	margin-bottom: 30px
+}
+
+footer .container{
+	width: 200px;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dosis:wght@200..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-footer: #ece5d4;
+	--color-texto: #000000;
+	--color-azul: #33CCFF;
+}
+
+.active{
+	color: var(--color-azul) !important;
+}
+
+h1{
+	font-family: 'Google Sans';
+}
+
+p{
+	font-family: arimo;
+}
+
+
+header img{
+	width: 25%
+}
+
+header{
+	box-shadow:  0 12px 15px -10px rgba(0,0,0,0.20);
+}
+
+
+#hero h1{
+	margin-left: 40%
+}
+
+#hero{              
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;                
+    display: flex;                    
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	color: white;
+	margin: 30px 0px 30px 0px;
+	overflow: hidden;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+}
+
+.fondo-hero{
+	 background-image: url( "../img/totoro.jpeg");
+}
+
+.mundo{
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	align-items: center;
+	display: flex;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+	
+}
+
+.mundo1{
+	background-image: url( "../img/dibujando.png");
+}
+
+.mundo2{
+	background-image: url( "../img/Young Couple Posing for Camera in Studio, Vector.jpg.jpeg");
+}
+
+.mundo3{
+	background-image: url( "../img/Set of Boy Scout in Different Action.jpg.jpeg");
+}
+
+.mundo4{
+	background-image: url( "../img/empresa.png");
+}
+
+
+#cards article{
+	margin-bottom: 4%
+}
+
+#work{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	
+}
+
+#lista h2 {
+    font-size: 16px;            
+    display: inline-block;      
+    border: 1px solid #777;     
+    border-radius: 20px;        
+    padding: 5% 15%;         
+    margin: 10%;               
+    text-align: center;
+    width: auto;                
+	border-style: dotted;
+
+}
+
+
+#fotos{
+	margin-bottom: 40%;
+}
+
+#fotos img{
+	border-radius: 20px;
+	width: 100%;
+	height: 110%;
+}
+
+
+
+#info p{
+	font-size: 150%;
+	padding: 2%;
+	margin-top: 10%;
+	text-align: justify;
+	
+}
+
+#info img{
+	width: 80%;
+	margin-left: 15%;
+	border-radius: 20px;
+}
+
+#more {
+    background-image: url( "../img/panzervor.png");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+	margin: auto;
+    margin-bottom: 30px;
+    border-radius: 40px; 
+    overflow: hidden;  
+	margin-top: 30px;
+}
+
+.logo{
+	width: 60px;
+	margin-left: 90px;
+	margin-bottom: 40px;
+
+}
+
+footer{
+	background-color: #ece5d4;
+	padding: 4px
+}
+
+footer{
+	background-color: var(--color-footer);
+	padding: 60px;
+	text-align: center;
+}
+
+footer img{
+	width: 50px;
+	margin-bottom: 30px
+}
+
+footer .container{
+	width: 200px;
+}
+
+/* inicio pagina 2 proyectos */
+
+
+#hero-largo{
+	text-align: center;
+	color: #FFFFFF;
+	background-size: cover;
+	height: 500px;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
+	
+.fondo-largo{
+	background-image: url( "../img/animal-crossing.jpeg");
+}
+
+
+#hero-largo h1{
+	padding-top: 15%
+}
+
+
+#fotos img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+#fotos {
+	width: 85%;
+	margin: 0px 0px 50px 95px;
+	text-align: center;
+}
+
+#fotos article{
+	margin-bottom: 30px
+}
+
+
+footer{
+	background-color: var(--color-footer);
+	padding: 60px;
+	text-align: center;
+}
+
+
+/* inicio pagina 3 nosotros */
+
+#hero-somos{
+	text-align: center;
+	color: #FFFFFF;
+	background-size: cover;
+	height: 500px;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
+
+.fondo-somos{
+	background-image: url( "../img/pareja.jpeg");
+}
+
+.letras{
+	padding-top: 15%;
+}
+	
+	
+#section-somos{
+	width: 90%;
+	margin-left: 100px;
+}
+
+	
+#section-somos article{
+	margin-bottom: 60px;
+}	
+	
+	
+#section-somos img{
+	width: 85%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 30px;
+	box-shadow: 10px 10px 0px rgba(0,0,0,0.20);
+}
+	
+.texto{
+	width: 90%;
+	text-align: center;
+	justify-content: center;
+	margin-top: 40px
+}
+	
+
+
+
+
+
+
+
+
+

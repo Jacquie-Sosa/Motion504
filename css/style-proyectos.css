@@ -1,0 +1,95 @@
+
+:root{
+	--color-footer: #ece5d4;
+	--color-texto: #000000
+}
+
+
+
+
+header img{
+	width: 25%
+}
+
+header{
+	box-shadow:  0 12px 15px -10px rgba(0,0,0,0.20);
+}
+
+
+#hero-peli{
+	background-image: url( "../img/jacqui animal crosing.png");
+	text-align: center;
+	color: #FFFFFF;
+	background-size: cover;
+	height: 500px;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
+	margin-top: 60px;
+	margin-bottom: 50px
+}
+	
+#hero-peli h1{
+	padding-top: 15%
+}
+
+
+#fotos img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+#fotos {
+	width: 85%;
+	margin: 0px 0px 50px 95px;
+	text-align: center;
+}
+
+#fotos article{
+	margin-bottom: 30px
+}
+
+
+footer{
+	background-color: var(--color-footer);
+	padding: 60px;
+	text-align: center;
+}
+
+footer img{
+	width: 50px;
+	margin-bottom: 30px
+}
+
+footer .container{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
