@@ -243,8 +243,9 @@ footer{
 	background-color: rgba(10,17,50,0.60);
 	background-blend-mode: multiply;
 	margin-top: 60px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
+
 
 
 
@@ -270,12 +271,15 @@ footer{
 	background-image: url("../img/empresa.png");
 }
 
+.fondo-contactos{
+	background-image: url( "../img/Contactos.png");
+}
 
 
 
 
 .letras{
-	padding-top: 15%;
+	padding-top: 20%;
 }
 	
 	
@@ -395,19 +399,31 @@ footer{
 	margin-bottom: 70px;
 }
 
+/* inicio pagina 6 contactanos */
+
+.formu{
+	margin: 5% 0 5% 0;
+}
 
 
+#formulario{
+	width: 70%;
+	margin-left: 13%;
+}
 
+.formu hr{
+	margin-top: 5%;
+}
 
+.bienvenido{
+	text-align: center;
+	padding: 0 7% 0 7%;
+	margin: 5% 0 5% 0;
+}
 
-
-
-
-
-
-
-
-
+#info-bienvenido h2{
+	margin-bottom: 3%;
+}
 
 
 
