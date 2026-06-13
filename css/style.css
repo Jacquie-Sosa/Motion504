@@ -4,6 +4,7 @@
 	--color-footer: #ece5d4;
 	--color-texto: #000000;
 	--color-azul: #33CCFF;
+	--cartas-personajes: #EFE7DA;
 }
 
 .active{
@@ -231,10 +232,11 @@ footer{
 }
 
 
-/* inicio pagina 3 nosotros */
+/* inicio pagina 3 historia */
 
-#hero-somos{
+.hero-somos{
 	text-align: center;
+	align-items: center;
 	color: #FFFFFF;
 	background-size: cover;
 	height: 500px;
@@ -244,9 +246,33 @@ footer{
 	margin-bottom: 50px
 }
 
+
+
 .fondo-somos{
 	background-image: url( "../img/pareja.jpeg");
+	
 }
+
+.fondo-info-pelis{
+	background-image: url( "../img/Miku y otra.png");
+}
+
+.fondo-personajes{
+	background-image: url("../img/Miku 2.png");
+	
+}
+
+.fondo-mundos{
+	background-image: url("../img/Arbol.png");
+}
+
+.fondo-preguntas{
+	background-image: url("../img/empresa.png");
+}
+
+
+
+
 
 .letras{
 	padding-top: 15%;
@@ -279,6 +305,109 @@ footer{
 	margin-top: 40px
 }
 	
+/* inicio pagina 4 info peliculas*/
+
+#trailer img{
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+
+#trailer h4{
+	text-align: center;
+}
+
+
+#trailer{
+	margin-bottom: 10%
+}
+
+#info-nombre{
+	text-align: center;
+	margin-top: 80px;
+}
+
+#info-nombre p{
+	padding: 0 17% 0 17%;
+	margin-top: 20px
+}
+
+#personajes img{
+	width: 65%;
+	border-radius: 100%
+}
+
+
+
+#personajes p{
+	padding: 0 15% 0 15%;
+	text-align: center;
+}
+
+#personajes h2{
+	text-align: center;
+}
+
+.text-personajes{
+	margin-top: 9%;
+
+}
+
+#personajes article{
+	margin-bottom: 50px;
+
+}
+
+#mundo-info p{
+	padding: 0 10% 0 10%;
+	text-align: center;
+}
+
+#mundo-info img{
+	border-radius: 30px;
+	margin-left: 10%
+
+}
+
+
+#mundo-info h1{
+	text-align: center;
+}
+
+#mundo-info{
+	margin-top: 5%;
+	margin-bottom: 5%
+}
+
+/* inicio pagina 5 preguntas */
+
+#preguntas p{
+	text-align: center;
+	font-size: 140%;
+	margin-bottom: 30px;
+	margin-top: 30px
+}
+
+#preguntas{
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
