@@ -7,9 +7,7 @@
 	--cartas-personajes: #EFE7DA;
 }
 
-.active{
-	color: var(--color-azul) !important;
-}
+
 
 h1{
 	font-family: 'Google Sans';
@@ -71,22 +69,48 @@ header{
 	
 }
 
+.service-layer{
+	overflow: hidden;
+	
+}
+
 .mundo1{
 	background-image: url( "../img/dibujando.png");
+	transition: all 0.2s ease-in-out;
+}
+.mundo1:hover{
+	transform: scale(1.3);
+	transition: all 0.2s ease-in-out;
 }
 
 .mundo2{
 	background-image: url( "../img/Young Couple Posing for Camera in Studio, Vector.jpg.jpeg");
+	transition: all 0.2s ease-in-out;
+}
+.mundo2:hover{
+	transform: scale(1.3);
+	transition: all 0.2s ease-in-out;
 }
 
 .mundo3{
 	background-image: url( "../img/Set of Boy Scout in Different Action.jpg.jpeg");
+	transition: all 0.2s ease-in-out;
+}
+
+.mundo3:hover{
+	transform: scale(1.3);
+	transition: all 0.2s ease-in-out;
 }
 
 .mundo4{
 	background-image: url( "../img/empresa.png");
+	transition: all 0.2s ease-in-out;
 }
 
+.mundo4:hover{
+	transform: scale(1.3);
+	transition: all 0.2s ease-in-out;
+}
 
 #cards article{
 	margin-bottom: 4%
@@ -121,6 +145,7 @@ header{
 	border-radius: 20px;
 	width: 100%;
 	height: 110%;
+	
 }
 
 
@@ -155,6 +180,8 @@ header{
     border-radius: 40px; 
     overflow: hidden;  
 	margin-top: 30px;
+	background-color: rgba(10,17,50,0.60);
+	background-blend-mode: multiply;
 }
 
 .logo{
@@ -317,8 +344,14 @@ footer{
 	border-radius: 20px;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	
+	transition: all 0.2s ease-in-out;
 }
+
+#trailer img:hover{
+	transform: scale(1.1);
+	transition: all 0.2s ease-in-out;
+}
+
 
 #trailer h4{
 	text-align: center;
@@ -401,24 +434,9 @@ footer{
 
 /* inicio pagina 6 contactanos */
 
-.formu{
-	margin: 5% 0 5% 0;
-}
-
-
-#formulario{
-	width: 70%;
-	margin-left: 13%;
-}
-
-.formu hr{
-	margin-top: 5%;
-}
-
 .bienvenido{
 	text-align: center;
-	padding: 0 7% 0 7%;
-	margin: 5% 0 5% 0;
+	margin: 5% 0% 5% 0%;
 }
 
 #info-bienvenido h2{
@@ -427,9 +445,74 @@ footer{
 
 
 
+#info-bienvenido img{
+	width: 100%;
+	height: 30%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+#info-bienvenido{
+	margin-top: 5%;
+	margin-bottom: -150px
+}
+
+
+#ubicacion{
+	margin-bottom: 5%
+}
+
+#respuesta{
+	padding: 0 9% 0 9%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+#respuesta h3{
+	margin-bottom: 40px;
+
+}
+
+.respu{
+	margin-bottom: 10%
+}
 
 
 
 
 
 
+
+
+
+/* espacio para poner los media*/
+
+
+
+/*lg - computadora*/
+
+@media (min-width:1200px){
+	
+}
+
+
+/*sm - tablet*/
+
+@media (min-width:800px) and (max-width:1200px){
+	
+	
+}
+	
+	
+/*celular*/
+
+@media (max-width:800px){
+	
+	
+}
+	
+	
+	
+	
+	
+	
