@@ -1,480 +1,347 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dosis:wght@200..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-:root{
-	--color-footer: #ece5d4;
-	--color-texto: #000000;
-	--color-azul: #33CCFF;
-	--cartas-personajes: #EFE7DA;
+.bg {
+    background-color: #121C29;
 }
 
-
-
-h1{
-	font-family: 'Google Sans';
-}
-
-p{
-	font-family: arimo;
-}
-
-
-header img{
-	width: 25%
-}
-
-header{
-	box-shadow:  0 12px 15px -10px rgba(0,0,0,0.20);
-}
-
-
-#hero h1{
-	margin-left: 40%
-}
-
-#hero{              
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
-	background-position: center;
-	background-size: cover;                
-    display: flex;                    
-    flex-direction: column;
-    align-items: center;
-	justify-content: center;
-	color: white;
-	margin: 30px 0px 30px 0px;
-	overflow: hidden;
-	background-color: rgba(10,17,50,0.60);
-	background-blend-mode: multiply;
-}
-
-.fondo-hero{
-	 background-image: url( "../img/totoro.jpeg");
-}
-
-.mundo{
-	text-align: center;
-	color: white;
-	width: 100%;
-	height: 200px;
-	object-fit: cover;
-	justify-content: center;
-	background-position: center;
-	background-size: cover;
-	border-radius: 20px;
-	align-items: center;
-	display: flex;
-	background-color: rgba(10,17,50,0.60);
-	background-blend-mode: multiply;
-	
-}
-
-.service-layer{
-	overflow: hidden;
-	
-}
-
-.mundo1{
-	background-image: url( "../img/dibujando.png");
-	transition: all 0.2s ease-in-out;
-}
-.mundo1:hover{
-	transform: scale(1.3);
-	transition: all 0.2s ease-in-out;
-}
-
-.mundo2{
-	background-image: url( "../img/Young Couple Posing for Camera in Studio, Vector.jpg.jpeg");
-	transition: all 0.2s ease-in-out;
-}
-.mundo2:hover{
-	transform: scale(1.3);
-	transition: all 0.2s ease-in-out;
-}
-
-.mundo3{
-	background-image: url( "../img/Set of Boy Scout in Different Action.jpg.jpeg");
-	transition: all 0.2s ease-in-out;
-}
-
-.mundo3:hover{
-	transform: scale(1.3);
-	transition: all 0.2s ease-in-out;
-}
-
-.mundo4{
-	background-image: url( "../img/empresa.png");
-	transition: all 0.2s ease-in-out;
-}
-
-.mundo4:hover{
-	transform: scale(1.3);
-	transition: all 0.2s ease-in-out;
-}
-
-#cards article{
-	margin-bottom: 4%
-}
-
-#work{
-	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 50px;
-	
-}
-
-#lista h2 {
-    font-size: 16px;            
-    display: inline-block;      
-    border: 1px solid #777;     
-    border-radius: 20px;        
-    padding: 5% 15%;         
-    margin: 10%;               
-    text-align: center;
-    width: auto;                
-	border-style: dotted;
-
-}
-
-
-#fotos{
-	margin-bottom: 40%;
-}
-
-#fotos img{
-	border-radius: 20px;
-	width: 100%;
-	height: 110%;
-	
-}
-
-
-
-#info p{
-	font-size: 150%;
-	padding: 2%;
-	margin-top: 10%;
-	text-align: justify;
-	
-}
-
-#info img{
-	width: 80%;
-	margin-left: 15%;
-	border-radius: 20px;
-}
-
-#more {
-    background-image: url( "../img/panzervor.png");
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar .nav-link {
     color: white;
-	margin: auto;
-    margin-bottom: 30px;
-    border-radius: 40px; 
-    overflow: hidden;  
-	margin-top: 30px;
-	background-color: rgba(10,17,50,0.60);
-	background-blend-mode: multiply;
 }
 
-.logo{
-	width: 60px;
-	margin-left: 90px;
-	margin-bottom: 40px;
-
+form {
+    background-color: transparent;
+    color: #fff;
 }
 
-footer{
-	background-color: #ece5d4;
-	padding: 4px
+body {
+    background-color: #121C29;
 }
 
-footer{
-	background-color: var(--color-footer);
-	padding: 60px;
-	text-align: center;
+.zapatos {
+    width: 40%;
+    margin-left: 30%;
 }
 
-footer img{
-	width: 50px;
-	margin-bottom: 30px
+.flex img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
-footer .container{
-	width: 200px;
+.opciones {
+    color: white;
+    margin-left: 9%;
 }
 
-/* inicio pagina 2 proyectos */
-
-
-#hero-largo{
-	text-align: center;
-	color: #FFFFFF;
-	background-size: cover;
-	height: 500px;
-	background-color: rgba(10,17,50,0.60);
-	background-blend-mode: multiply;
-	margin-top: 60px;
-	margin-bottom: 50px
-}
-	
-.fondo-largo{
-	background-image: url( "../img/animal-crossing.jpeg");
+.opciones h6 {
+    font-size: 20px;
+    border: #fff solid 2px;
+    text-align: center;
+    padding: 8%;
+    border-radius: 50px;
 }
 
-
-#hero-largo h1{
-	padding-top: 15%
+#somos {
+    color: #fff;
+    background-image: url(../img/Captura\ de\ pantalla\ 2026-07-31\ 231312.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(23, 14, 39, 0.562);
+    background-blend-mode: multiply;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-
-#fotos img{
-	width: 100%;
-	height: 450px;
-	object-fit: cover;
+#nosotros {
+    text-align: center;
+    color: #fff;
+    padding: 0% 20%;
 }
 
-#fotos {
-	width: 85%;
-	margin: 0px 0px 50px 95px;
-	text-align: center;
+#nosotros p {
+    margin-top: 5%;
+    font-size: 20px;
 }
 
-#fotos article{
-	margin-bottom: 30px
+#nosotros h1 {
+    font-size: 60px;
 }
 
-
-footer{
-	background-color: var(--color-footer);
-	padding: 60px;
-	text-align: center;
+.man {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
 }
 
-
-/* inicio pagina 3 historia */
-
-.hero-somos{
-	text-align: center;
-	align-items: center;
-	color: #FFFFFF;
-	background-size: cover;
-	height: 500px;
-	background-color: rgba(10,17,50,0.60);
-	background-blend-mode: multiply;
-	margin-top: 60px;
-	margin-bottom: 50px;
+.calzado {
+    color: white;
 }
 
-
-
-
-.fondo-somos{
-	background-image: url( "../img/pareja.jpeg");
-	
+.precios img {
+    width: 50%;
 }
 
-.fondo-info-pelis{
-	background-image: url( "../img/Miku y otra.png");
+.texto {
+    width: 30%;
+    background: #112238;
+    background: linear-gradient(90deg, rgba(17, 34, 56, 1) 21%, rgba(32, 50, 77, 1) 63%);
+    margin-right: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    margin-top: 5%;
 }
 
-.fondo-personajes{
-	background-image: url("../img/Miku 2.png");
-	
+.precios {
+    margin-left: 25%;
+    margin-bottom: 10%;
 }
 
-.fondo-mundos{
-	background-image: url("../img/Arbol.png");
+.calcetas {
+    margin-top: 5%;
 }
 
-.fondo-preguntas{
-	background-image: url("../img/empresa.png");
+.calcetas .precios {
+    margin-top: 10%;
 }
 
-.fondo-contactos{
-	background-image: url( "../img/Contactos.png");
+.calcetas img {
+    margin-bottom: 10%;
 }
 
-
-
-
-.letras{
-	padding-top: 20%;
-}
-	
-	
-#section-somos{
-	width: 90%;
-	margin-left: 100px;
+.oferta {
+    background-color: #FF4040;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20%;
+    padding: 5%;
+    margin-bottom: 5%;
 }
 
-	
-#section-somos article{
-	margin-bottom: 60px;
-}	
-	
-	
-#section-somos img{
-	width: 85%;
-	height: 400px;
-	object-fit: cover;
-	border-radius: 30px;
-	box-shadow: 10px 10px 0px rgba(0,0,0,0.20);
-}
-	
-.texto{
-	width: 90%;
-	text-align: center;
-	justify-content: center;
-	margin-top: 40px
-}
-	
-/* inicio pagina 4 info peliculas*/
-
-#trailer img{
-	width: 90%;
-	height: 90%;
-	border-radius: 20px;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	transition: all 0.2s ease-in-out;
+.btn-dark {
+    background-color: #0E0E27;
+    color: white;
+    padding: 1%;
+    border-radius: 30px;
 }
 
-#trailer img:hover{
-	transform: scale(1.1);
-	transition: all 0.2s ease-in-out;
+button {
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.one {
+    background-image: url(../img/Captura\ de\ pantalla\ 2026-08-01\ 000128.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(23, 14, 39, 0.562);
+    background-blend-mode: multiply;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #fff;
+}
+
+hr {
+    border: 4px solid #fff;
+}
+
+#pregu {
+    color: #fff;
+}
+
+.question {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+
+.question h1 {
+    font-size: 50px;
+    margin-bottom: 3%;
 }
 
 
-#trailer h4{
-	text-align: center;
+#garantia {
+    color: white;
+    text-align: center;
+    padding: 5% 20%;
+    font-size: 20px;
+}
+
+#garantia h1 {
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    background: #090d14;
+    background: linear-gradient(0deg, rgba(9, 13, 20, 1) 43%, rgba(18, 28, 41, 1) 94%);
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.info {
+    margin-bottom: 10%;
+}
+
+.redes {
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.priv {
+    font-size: 20px;
+}
+
+/*pagina de creacion de cuenta*/
+
+.crear {
+    background: #000329;
+    background: linear-gradient(90deg, rgba(0, 3, 41, 1) 49%, rgba(255, 255, 255, 1) 50%);
+    display: flex;
+    padding: 2%;
+    border-radius: 50px;
+    margin-top: 10%;
+}
+
+.cuenta{
+    margin-left: 25%;
+}
+
+.sesion{
+    margin-left: 15%;
+    color: #fff;
+}
+
+.form-label{
+    color: #fff;
+    font-size: 20px;
+}
+
+#formulario{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-control{
+    background-color: #647D8C;
+    border: 1px solid #090d14;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
 }
 
 
-#trailer{
-	margin-bottom: 10%
+.contra{
+    display: flex;
+    color: white;
+    margin-top: 5%;
 }
 
-#info-nombre{
-	text-align: center;
-	margin-top: 80px;
+.olvidar{
+    margin-left: 70%;
 }
 
-#info-nombre p{
-	padding: 0 17% 0 17%;
-	margin-top: 20px
+.pass{
+    margin-top: 5%;
 }
 
-#personajes img{
-	width: 65%;
-	border-radius: 100%
-}
-
-
-
-#personajes p{
-	padding: 0 15% 0 15%;
-	text-align: center;
-}
-
-#personajes h2{
-	text-align: center;
-}
-
-.text-personajes{
-	margin-top: 9%;
-
-}
-
-#personajes article{
-	margin-bottom: 50px;
-
-}
-
-#mundo-info p{
-	padding: 0 10% 0 10%;
-	text-align: center;
-}
-
-#mundo-info img{
-	border-radius: 30px;
-	margin-left: 10%
-
+#formulario button{
+    border: 3px solid #fff;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+    border-radius: 50px;
+    font-size: 40px;
 }
 
 
-#mundo-info h1{
-	text-align: center;
+.confirmar{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20%;
 }
 
-#mundo-info{
-	margin-top: 5%;
-	margin-bottom: 5%
+#carrito{
+    color: white;
 }
 
-/* inicio pagina 5 preguntas */
-
-#preguntas p{
-	text-align: center;
-	font-size: 140%;
-	margin-bottom: 30px;
-	margin-top: 30px
+.carro{
+    text-align: center;
+    margin-bottom: 5%;
 }
 
-#preguntas{
-	margin-bottom: 70px;
-}
-
-/* inicio pagina 6 contactanos */
-
-.bienvenido{
-	text-align: center;
-	margin: 5% 0% 5% 0%;
-}
-
-#info-bienvenido h2{
-	margin-bottom: 3%;
+#carrito h1{
+     background: #112238;
+    background: linear-gradient(90deg, rgba(17, 34, 56, 1) 21%, rgba(32, 50, 77, 1) 63%);
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.479);
 }
 
 
-
-#info-bienvenido img{
-	width: 100%;
-	height: 30%;
-	object-fit: cover;
-	border-radius: 20px;
-}
-
-#info-bienvenido{
-	margin-top: 5%;
-	margin-bottom: -150px
+.air{
+    font-size: 25px;
+    margin-top: 35%;
+    margin-left: 20%;
 }
 
 
-#ubicacion{
-	margin-bottom: 5%
+.canti{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25%;
+    border: 1px solid white;
+    padding: 10% 5%;
 }
 
-#respuesta{
-	padding: 0 9% 0 9%;
-	margin-bottom: 10%;
-	margin-top: 10%;
+.arrow{
+    font-size: 40px;
+    margin-top: 7%;
+    border: 1px solid white;
+    padding: 10% 5%;
+    text-align: center;
 }
 
-#respuesta h3{
-	margin-bottom: 40px;
 
+.down{
+    margin-bottom: 18%;
 }
 
-.respu{
-	margin-bottom: 10%
+.derecha{
+    border-left: 1px solid #fff;
+}
+
+
+.btn-primary{
+    background-color: #0E0E27;
+    width: 50%;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -485,34 +352,11 @@ footer{
 
 
 
-/* espacio para poner los media*/
 
 
 
-/*lg - computadora*/
-
-@media (min-width:1200px){
-	
-}
 
 
-/*sm - tablet*/
 
-@media (min-width:800px) and (max-width:1200px){
-	
-	
-}
-	
-	
-/*celular*/
 
-@media (max-width:800px){
-	
-	
-}
-	
-	
-	
-	
-	
-	
+
